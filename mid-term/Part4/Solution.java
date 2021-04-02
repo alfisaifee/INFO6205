@@ -11,7 +11,7 @@ public class Solution {
     }
 
     private int getIndex(int[] nums, int x, int left, int right) {
-        if(left > right)
+        if(nums[left] > x || nums[right] < x || left > right)
             return -1;
         if(nums[left] == x)
             return left;
