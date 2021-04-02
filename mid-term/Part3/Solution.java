@@ -22,6 +22,12 @@ public class Solution {
     public static void main(String[] args){
         int[] arr = {0,1,0,1,1,0,1,1,1,0,0,0};
         Solution sol = new Solution();
-        System.out.println(sol.getMaxConsecutiveOnes(arr));
+        System.out.println("Max Consecutive 1s : " + sol.getMaxConsecutiveOnes(arr));
+
+        int[] arr1 = {0,1,0,1,1,0,1,1,1,1,1,0};
+        System.out.println("Max Consecutive 1s : " +sol.getMaxConsecutiveOnes(arr1));
+
+        int[] arr2 = {0,0,0,0,0,0,0,0,0,0};
+        System.out.println("Max Consecutive 1s : " +sol.getMaxConsecutiveOnes(arr2));
     }
 }

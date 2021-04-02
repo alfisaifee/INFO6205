@@ -6,7 +6,7 @@ import java.util.Set;
 
 class Solution{
     //Time Complexity : O(N + M), N -> len N1, M -> len N2
-    // Space Complexity : O(N)
+    // Space Complexity : O(N) N -> len N1
     public boolean areConverging(ListNode n1, ListNode n2){
         if(n1 == null || n2 == null)
             return false;
